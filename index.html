@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-	<meta charset="UTF-8">
-	
+
 	<title>Kader Arnold</title>
 
+	<!-- metadata -->
+	<meta charset="UTF-8">
+	<meta name="author" content="Kader Arnold">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- bootstrap css stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<!-- import jquery from local file -->
+	<script src="jquery-3.5.1.min.js"></script>
+
+	<!-- import bootstrap js file -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="style.css" type="text/css">
+
     </head>
+
     <body>
 	<div class="wrapper">
 	    <header>
 	        <div class="header-wrapper">
 		    <h1>Kader Arnold</h1>
 		    <nav>
-			<div class="main-menu-wrapper">
-			    <ul>
-			        <li><a href="">Portfolio</a></li>
-			        <li><a href="">Resume</a></li>
-			        <li><a href="">About Us</a></li>
-			        <li><a href="">Message Boards</a></li>
-			        <li><a href="">Videos</a></li>
+			<div class="header-nav-wrapper"> <ul>
+			        <li><a href="portfolio.html">Portfolio</a></li>
 			    </ul>
 			</div>
 		    </nav>
 		</div>
 	    </header>
+	    <br>
 	    <main>
-		<article>
-		    <div class="main-wrapper">
-			<div class="article-wrapper">
-			    <h2>About The Author</h2>
-			    <p>Lorem cumque sint sapiente labore laboriosam! Magnam veritatis minus laboriosam laboriosam iure Dolorum illum porro aperiam expedita recusandae Sint quasi cumque nesciunt unde quam nobis. Sapiente odio molestias non fugit adipisci aliquid Consequatur totam in recusandae officiis eaque possimus Error aliquid laudantium sapiente ea itaque, ad eum ea Iusto aut?</p>
-			</div>
+	        <div class="main-wrapper">
 		    <article>
-
+		        <div class="main-article-wrapper">
+			    <h3>Subscribe</h3>
+			    <form action="">
+				<fieldset>
+				    Name: <input type="text" name="fullname" required>
+				    Email: <input type="email" name="email" required>
+				    <input id="submit" type="submit" name="submit" value="submit">
+				</fieldset>
+			    </form>
+			    <div class="message-board-wrapper">
+				<h3>Message Board</h3>
+				<form action="">
+				    Name: <input type="text" required>
+				    Subject: (optional) <input type="text">
+				    <textarea id="" name="" cols="83" rows="10" placeholder="say something you feel! say it with your chest."></textarea>
+				    <br>
+				    <input id="submit" type="submit" name="submit">
+				</form>
+			    </div>
+			</div>
+		    </article>
 		    <aside>
-			<div class="aside-wrapper">
-			    <h2>Archives</h2>
+		        <div class="main-aside-wrapper">
+			    <h3>About Me</h3>
+			    <p>I am a young inventor in Philadelphia, Pennsylvania. I like computer networking and c-level stuff. I also enjoy making music and play guitar and banjo. </p>
+			    <p>I will be posting all of my diy projects here, including beats, music related drafts, networking scripts, web scrapers, sql programs, and web development mishap</p>
+			    <p>I am a huge cryptocurrency advocate and will also frequenly suggest pics and provide insight into the forecoming bull market. We can only go up!</p>
 			    <p>
-			        Adipisicing doloribus tenetur voluptatibus repellat laudantium. Eos ipsam sit totam esse consequuntur Laborum a iure consequatur rerum ex ea. Aspernatur repudiandae nulla elit voluptas sunt, sunt omnis voluptate Incidunt quae magni veritatis soluta hic, ipsa dolores Molestiae fugiat voluptatem esse et cum, eum. Tempore earum sint dolor maxime unde ea Minus iste quis exercitationem nulla ut. Accusantium aspernatur quibusdam perspiciatis cumque ducimus. Tenetur incidunt maxime fugiat pariatur hic Alias veniam nobis dolor earum molestiae. Aliquam repellendus error aliquid saepe quia?
+				As always, while the message boards are public please be respectful of all other beliefs and failure to do so will result in being banned. Sorry.
 			    </p>
-			    
-			    
+			    <p>
+				also feel free to always reach out with any questions and I will try my best to answer them as diligently and quickly as possible. 
+			    </p>
 			</div>
 		    </aside>
+
 		</div>
 	    </main>
 	    <footer>
 	        <div class="footer-wrapper">
 		    <nav>
-			<div class="footer-menu-wrapper">
-			    <ul>
-				<li><a href="">Contact Us</a></li>
-				<li><a href="">Job Availability</a></li>
-				<li><a href="">Shop</a></li>
-				<li><a href="">Terms and Conditions</a></li>
-			    </ul>
-			</div>
+			<ul>
+			    <li><a>Privacy Policy</a></li>
+			    <li><a>Employment</a></li>
+			    <li><a>Other Resources</a></li>
+			    <p>2020 GLOBUS INC.</p>
+			</ul>
 		    </nav>
 		</div>
 	    </footer>
 	</div>
-	
     </body>
 </html>

@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+textarea {
+    padding: 2px;
+}
+
 .wrapper {
 
     margin: 0px auto 0px auto;
@@ -166,6 +170,7 @@ form #submit {
     opacity: 50%;
 
 }
+
 
 
 

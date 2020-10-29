@@ -29,7 +29,7 @@
 		    <h1>Kader Arnold</h1>
 		    <nav>
 			<div class="header-nav-wrapper"> <ul>
-			        <li><a href="portfolio.html">Portfolio</a></li>
+			        <li><a href="coming_soon.html">Portfolio</a></li>
 			    </ul>
 			</div>
 		    </nav>
@@ -41,7 +41,7 @@
 		    <article>
 		        <div class="main-article-wrapper">
 			    <h3>Subscribe</h3>
-			    <form action="">
+			    <form method="post" id="email-form" action="email.php">
 				<fieldset>
 				    Name: <input type="text" name="fullname" required>
 				    Email: <input type="email" name="email" required>
@@ -49,12 +49,11 @@
 				</fieldset>
 			    </form>
 			    <div class="message-board-wrapper">
-				<h3>Message Board</h3>
-				<form action="">
-				    Name: <input type="text" required>
-				    Subject: (optional) <input type="text">
-				    <textarea id="" name="" cols="83" rows="10" placeholder="say something you feel! say it with your chest."></textarea>
-				    <br>
+				<h3><a href="board.html">Message Board</a></h3>
+				<form id="message-form" action="message.php" method="post">
+				    Name: <input id="message_name" type="text" name="message_name" required>
+				    Subject: (optional) <input id="subject" type="text" name="subject">
+				    <textarea id="message" name="message" cols="82" rows="11" placeholder="say it with your chest."></textarea>
 				    <input id="submit" type="submit" name="submit">
 				</form>
 			    </div>
@@ -81,9 +80,8 @@
 	        <div class="footer-wrapper">
 		    <nav>
 			<ul>
-			    <li><a>Privacy Policy</a></li>
-			    <li><a>Employment</a></li>
-			    <li><a>Other Resources</a></li>
+			    <li><a href="coming_soon.html">Privacy Policy</a></li>
+			    <li><a href="coming_soon.html">Other Resources</a></li>
 			    <p>2020 GLOBUS INC.</p>
 			</ul>
 		    </nav>
